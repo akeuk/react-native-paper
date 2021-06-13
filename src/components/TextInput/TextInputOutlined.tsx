@@ -90,6 +90,7 @@ class TextInputOutlined extends React.Component<ChildTextInputProps> {
     const {
       fontSize: fontSizeStyle,
       fontWeight,
+      lineHeight,
       height,
       backgroundColor = colors.background,
       textAlign,
@@ -196,6 +197,7 @@ class TextInputOutlined extends React.Component<ChildTextInputProps> {
       font,
       fontSize,
       fontWeight,
+      lineHeight,
       labelScale,
       wiggleOffsetX: LABEL_WIGGLE_X_OFFSET,
       topPosition,
